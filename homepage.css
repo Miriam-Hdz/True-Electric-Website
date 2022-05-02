@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Oswald:wght@300&family=Square+Peg&display=swap');
+
+body {
+    font-family: Oswald, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+}
+
+.logo-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo-container {
+    margin-right: 5px;
+}
+
+#name {
+    font-size: 30px;
+    margin-left: 5px;
+    color: #1c98ed;
+    font-weight: bold;
+}
+
+.contact-info-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone-number {
+    font-size: 20px;
+}
+
+#quote a {
+    text-decoration: none;
+    border: 1px solid
+}
+
+#logo-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
